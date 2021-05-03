@@ -97,7 +97,7 @@ class SourceConfiguration(object):
 
     def __init__(
         self,
-        drivername,
+        drivername=None,
         host=None,
         port=None,
         database=None,
